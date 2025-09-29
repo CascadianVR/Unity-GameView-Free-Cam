@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "com.vrchat.base": {
+      "version": "3.8.2"
+    }
+  },
+  "locked": {
+    "com.vrchat.base": {
+      "version": "3.8.2",
+      "dependencies": {}
+    }
+  }
+}
