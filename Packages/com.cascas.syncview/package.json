@@ -1,0 +1,22 @@
+{
+  "name": "com.cascas.syncview",
+  "displayName": "Cascadian - Sync View",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "Adds shortcuts to have the game view camera match the scene camera and adjust it's zoom.",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.avatars": "^3.8.0"
+  },
+  "author": {
+    "name": "Cascadian",
+    "email": "cascadltd@gmail.com",
+    "url": "https://github.com/CascadianVR"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "B:\\DefualtBasis\\UnityShapekeySearch\\Packages\\com.cascas.unityshapekeysearch",
+  "type": "tool",
+  "unity": "2022.3",
+  "unityRelease": "22f1"
+}
