@@ -7,23 +7,20 @@
     </td>
     <td>
       <p>
-        A Unity Editor script that adds the abiltiy to search for shapekeys the <code>SkinnedMeshRenderer</code> component. You can search for a shapekey using the search bar and configure different settings related to it.
-Easily locate and configure shapekeys on any mesh with built-in filtering and display controls designed for faster iteration.
+        Adds shortcuts to have the game view camera match the scene camera and adjust it's zoom. 
       </p>
     </td>
   </tr>
 </table>
 
-## 🗂️ [Download through VCC](https://cascadianvr.github.io/UnityShapekeySearch/) 
+## 🗂️ [Download through VCC](https://cascadianvr.github.io/UnitySyncView/) 
 
 ## ▶ Current Features
 
-- Shapekey search bar
-  - Displays matching results below
-  - Option to sort results alphabetically
-- Search options
-  - Shapekey starts with search
-  - Shapekey contains search
+- Sync game view with scene camera
+  - Toggle on/off with ctrl+t
+  - Or toggle from menu Menu->Cascadian->SyncView
+  - Right-click+scroll will zoom in and out
 
 ## 📋 Planned Features
 
@@ -34,7 +31,7 @@ Easily locate and configure shapekeys on any mesh with built-in filtering and di
 - Discord: Cascadian
 - Email: cascasltd@gmail.com
  
-## 💡 Inspiration
+## 💡 Inspiration/Credits
 
-Thank you to my love, loona, for the wonderful idea
+- Hammey: For the name idea!
 
