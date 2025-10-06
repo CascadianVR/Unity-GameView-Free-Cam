@@ -16,3 +16,4 @@ MonoBehaviour:
   moveSmooth: 20
   lookSensitivity: 0.3
   lookSmooth: 25
+  enabled: 1

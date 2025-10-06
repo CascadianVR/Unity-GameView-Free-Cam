@@ -1,4 +1,6 @@
-﻿using UnityEditor;
+﻿#if UNITY_EDITOR
+
+using UnityEditor;
 
 namespace Cascadian.GameCameraFlyCam
 {
@@ -10,6 +12,7 @@ namespace Cascadian.GameCameraFlyCam
         public float moveSmooth = 20f;
         public float lookSensitivity = 0.3f;
         public float lookSmooth = 25f;
+        public bool enabled = true;
 
         // Call to save changes
         public void SaveSettings()
@@ -27,3 +30,5 @@ namespace Cascadian.GameCameraFlyCam
         }
     }
 }
+
+#endif

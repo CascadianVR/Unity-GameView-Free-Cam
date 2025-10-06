@@ -1,6 +1,6 @@
-﻿using System;
-using System.Runtime.InteropServices;
-using CasTools.GameCameraFollower;
+﻿#if UNITY_EDITOR
+
+using System;
 using UnityEditor;
 using UnityEngine;
 
@@ -16,7 +16,7 @@ namespace Cascadian.GameCameraFlyCam
             window.titleContent = new GUIContent("GameView FlyCam Settings"); // Empty title
             window.Show();
             
-            Vector2 size = new Vector2(350, 110);
+            Vector2 size = new Vector2(350, 125);
             window.minSize = size;
             window.maxSize = size;
             Rect windowPos = new Rect(100, 100, size.x, size.y);
@@ -42,14 +42,11 @@ namespace Cascadian.GameCameraFlyCam
             settings.moveSmooth = EditorGUILayout.Slider("Move Smooth", settings.moveSmooth, 1f, 50f);
             settings.lookSensitivity = EditorGUILayout.Slider("Look Sensitivity", settings.lookSensitivity, 0.01f, 1f);
             settings.lookSmooth = EditorGUILayout.Slider("Look Smooth", settings.lookSmooth, 1f, 50f);
+            settings.enabled = EditorGUILayout.Toggle("Enabled", settings.enabled);
 
             if (GUILayout.Button("Reset to Defaults"))
             {
-                settings.moveSpeed = 1f;
-                settings.moveSmooth = 20f;
-                settings.lookSensitivity = 0.3f;
-                settings.lookSmooth = 25f;
-                settings.SaveSettings();
+                settings.ResetSettings();
             }
             
             if (GUI.changed)
@@ -61,3 +58,5 @@ namespace Cascadian.GameCameraFlyCam
         }
     }
 }
+
+#endif

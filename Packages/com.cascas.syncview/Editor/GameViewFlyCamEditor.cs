@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using UnityEditor;
 using UnityEngine;
 using System;
@@ -31,6 +33,8 @@ namespace Cascadian.GameCameraFlyCam
 
         private static void Update()
         {
+            if (!GameViewFlyCamSettings.instance.enabled) return;
+            
             bool unityActive = InternalEditorUtility.isApplicationActive;
             bool gameFocused = EditorWindow.focusedWindow?.GetType() == GameViewType;
             bool activeAndFocused = unityActive && gameFocused;
@@ -279,3 +283,5 @@ namespace Cascadian.GameCameraFlyCam
         }
     }
 }
+
+#endif
