@@ -1,21 +1,20 @@
-# Cascadian - SyncView
+# Cascadian - GameView Free-Cam
 
 <table border="0">
   <tr>
       <p>
-        Adds shortcuts to have the game view camera match the scene camera and adjust it's zoom. 
+        Lets you navigate the game view window like the scene view in the Unity Editor.
       </p>
   </tr>
 </table>
 
-## 🗂️ [Download through VCC](https://cascadianvr.github.io/UnitySyncView/) 
+## 🗂️ [Download through VCC](https://cascadianvr.github.io/Unity-GameView-Free-Cam/) 
 
 ## ▶ Current Features
 
-- Sync game view with scene camera
-  - Toggle on/off with ctrl+t
-  - Or toggle from menu Menu->Cascadian->SyncView
-  - Right-click+scroll will zoom in and out
+- Right click on game view to look around
+  - While holding right click down, use WASDQE to move around.
+- Under the top menu Tools->Cascadian->GameViewFreeCamSettings
 
 ## 📋 Planned Features
 
@@ -28,5 +27,6 @@
  
 ## 💡 Inspiration/Credits
 
-- Hammey: For the name idea!
+- Deal-Carl: Idea to remake the project to be a full recreation of the scene free cam instead of matching
+- Hammey: For the previous name idea!
 
