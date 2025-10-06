@@ -1,7 +1,7 @@
 {
   "name": "com.cascas.gameviewfreecam",
   "displayName": "Cascadian - GameView Free-Cam",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "description": "Lets you navigate the game view window like the scene view in the Unity Editor.",
   "gitDependencies": {},
