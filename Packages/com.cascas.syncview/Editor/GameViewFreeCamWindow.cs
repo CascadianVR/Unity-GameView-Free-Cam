@@ -9,7 +9,7 @@ namespace Cascadian.GameCameraFlyCam
     public class GameViewFreeCamWindow : EditorWindow
     {
 
-        [MenuItem("Tools/Cascadian/Game View FlyCam Settings")]
+        [MenuItem("Tools/Cascadian/Game View Free-Cam Settings")]
         public static void ShowWindow()
         {
             var window = GetWindow<GameViewFreeCamWindow>(false);
