@@ -9,7 +9,7 @@ using UnityEditorInternal;
 namespace Cascadian.GameCameraFlyCam
 {
     [InitializeOnLoad]
-    public static class GameViewFlyCamEditor
+    public static class GameViewFreeCamEditor
     {
         private static bool _isFocused;
         private static float _yaw;
@@ -18,13 +18,13 @@ namespace Cascadian.GameCameraFlyCam
         private static Vector3 _lastCamPosition;
         private static Vector3 _velocity;
         private static Quaternion _targetRotation;
-        private static GameViewFlyCamWindow _overlayWindow;
+        private static GameViewFreeCamWindow _overlayWindow;
 
         private static readonly Type GameViewType;
 
         private const float MOVE_MULT = 2.0f;
 
-        static GameViewFlyCamEditor()
+        static GameViewFreeCamEditor()
         {
             GameViewType = Type.GetType("UnityEditor.GameView,UnityEditor");
             _lastMousePosition = GameViewInputs.CurrentMousePosition;
@@ -33,7 +33,7 @@ namespace Cascadian.GameCameraFlyCam
 
         private static void Update()
         {
-            if (!GameViewFlyCamSettings.instance.enabled) return;
+            if (!GameViewFreeCamSettings.instance.enabled) return;
             
             bool unityActive = InternalEditorUtility.isApplicationActive;
             bool gameFocused = EditorWindow.focusedWindow?.GetType() == GameViewType;
@@ -84,7 +84,7 @@ namespace Cascadian.GameCameraFlyCam
             var cam = Camera.main;
             if (cam == null) return;
 
-            var settings = GameViewFlyCamSettings.instance;
+            var settings = GameViewFreeCamSettings.instance;
 
             // Mouse look
             if (inputUpdated)

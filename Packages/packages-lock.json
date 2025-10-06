@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.cascas.syncview": {
+    "com.cascas.gameviewfreecam": {
       "version": "file:com.cascas.syncview",
       "depth": 0,
       "source": "embedded",

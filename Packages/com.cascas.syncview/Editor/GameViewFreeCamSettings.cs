@@ -6,7 +6,7 @@ namespace Cascadian.GameCameraFlyCam
 {
     [FilePath("ProjectSettings/CasTools.FlyCamSettings.asset", FilePathAttribute.Location.ProjectFolder)]
     // Settings saved per project in Library
-    public class GameViewFlyCamSettings : ScriptableSingleton<GameViewFlyCamSettings>
+    public class GameViewFreeCamSettings : ScriptableSingleton<GameViewFreeCamSettings>
     {
         public float moveSpeed = 1f;
         public float moveSmooth = 20f;

@@ -6,13 +6,13 @@ using UnityEngine;
 
 namespace Cascadian.GameCameraFlyCam
 {
-    public class GameViewFlyCamWindow : EditorWindow
+    public class GameViewFreeCamWindow : EditorWindow
     {
 
         [MenuItem("Tools/Cascadian/Game View FlyCam Settings")]
         public static void ShowWindow()
         {
-            var window = GetWindow<GameViewFlyCamWindow>(false);
+            var window = GetWindow<GameViewFreeCamWindow>(false);
             window.titleContent = new GUIContent("GameView FlyCam Settings"); // Empty title
             window.Show();
             
@@ -36,7 +36,7 @@ namespace Cascadian.GameCameraFlyCam
         {
             Handles.BeginGUI();
 
-            var settings = GameViewFlyCamSettings.instance;
+            var settings = GameViewFreeCamSettings.instance;
             
             settings.moveSpeed = EditorGUILayout.Slider("Move Speed", settings.moveSpeed, 0.01f, 10f);
             settings.moveSmooth = EditorGUILayout.Slider("Move Smooth", settings.moveSmooth, 1f, 50f);

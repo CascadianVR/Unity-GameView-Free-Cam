@@ -1,9 +1,9 @@
 {
-  "name": "com.cascas.syncview",
-  "displayName": "Cascadian - Sync View",
-  "version": "0.0.1",
+  "name": "com.cascas.gameviewfreecam",
+  "displayName": "Cascadian - GameView Free-Cam",
+  "version": "0.0.2",
   "license": "MIT",
-  "description": "Adds shortcuts to have the game view camera match the scene camera and adjust it's zoom.",
+  "description": "Lets you navigate the game view window like the scene view in the Unity Editor.",
   "gitDependencies": {},
   "vpmDependencies": {
     "com.vrchat.avatars": "^3.8.0"
