@@ -44,7 +44,6 @@ namespace Cascadian.GameCameraFlyCam
             if (activeAndFocused != _isFocused)
             { 
                 _isFocused = activeAndFocused;
-                Cursor.visible = !_isFocused;
 
                 var cam = Camera.main;
                 if (cam == null) return;
@@ -75,7 +74,7 @@ namespace Cascadian.GameCameraFlyCam
 
                 MoveCamera(inputUpdated);
             }
-
+            
             _lastMousePosition = currentMousePos;
         }
 
