@@ -1,7 +1,13 @@
 {
   "dependencies": {
     "com.cascas.gameviewfreecam": {
-      "version": "file:com.cascas.syncview",
+      "version": "file:com.cascas.gameviewfreecam",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.cascas.packagepresetexporter": {
+      "version": "file:com.cascas.packagepresetexporter",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
