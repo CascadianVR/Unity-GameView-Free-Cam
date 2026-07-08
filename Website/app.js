@@ -1,4 +1,4 @@
-import { baseLayerLuminance, StandardLuminance } from 'https://unpkg.com/@fluentui/web-components@2.6.1';
+import { baseLayerLuminance } from 'https://unpkg.com/@fluentui/web-components@2.6.1';
 
 const LISTING_URL = "{{ listingInfo.Url }}";
 
@@ -32,9 +32,9 @@ const PACKAGES = {
 const setTheme = () => {
   const isDarkTheme = () => window.matchMedia("(prefers-color-scheme: dark)").matches;
   if (isDarkTheme()) {
-    baseLayerLuminance.setValueFor(document.documentElement, StandardLuminance.DarkMode);
+    baseLayerLuminance.setValueFor(document.documentElement, 0.15);
   } else {
-    baseLayerLuminance.setValueFor(document.documentElement, StandardLuminance.LightMode);
+    baseLayerLuminance.setValueFor(document.documentElement, 1);
   }
 }
 
