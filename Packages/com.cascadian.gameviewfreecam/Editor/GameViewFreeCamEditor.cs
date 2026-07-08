@@ -1,12 +1,11 @@
 #if UNITY_EDITOR && UNITY_EDITOR_WIN
 
-using UnityEditor;
-using UnityEngine;
 using System;
-using System.Runtime.InteropServices;
+using UnityEditor;
 using UnityEditorInternal;
+using UnityEngine;
 
-namespace Cascadian.GameCameraFlyCam
+namespace Cascadian.GameViewFreeCam.Editor
 {
     [InitializeOnLoad]
     public static class GameViewFreeCamEditor

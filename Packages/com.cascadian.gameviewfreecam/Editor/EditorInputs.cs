@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using UnityEditor;
 using UnityEngine;
 
-namespace Cascadian.GameCameraFlyCam
+namespace Cascadian.GameViewFreeCam.Editor
 {
     [InitializeOnLoad]
     public static class GameViewInputs

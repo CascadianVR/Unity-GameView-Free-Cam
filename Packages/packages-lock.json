@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.cascadian.gameviewfreecam": {
-      "version": "file:com.cascas.gameviewfreecam",
+      "version": "file:com.cascadian.gameviewfreecam",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

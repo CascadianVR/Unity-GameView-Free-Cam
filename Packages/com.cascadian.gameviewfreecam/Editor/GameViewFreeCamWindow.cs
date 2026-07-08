@@ -4,7 +4,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Cascadian.GameCameraFlyCam
+namespace Cascadian.GameViewFreeCam.Editor
 {
     public class GameViewFreeCamWindow : EditorWindow
     {

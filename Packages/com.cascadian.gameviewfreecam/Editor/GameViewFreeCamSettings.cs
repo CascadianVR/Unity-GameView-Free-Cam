@@ -2,7 +2,7 @@
 
 using UnityEditor;
 
-namespace Cascadian.GameCameraFlyCam
+namespace Cascadian.GameViewFreeCam.Editor
 {
     [FilePath("ProjectSettings/CasTools.FlyCamSettings.asset", FilePathAttribute.Location.ProjectFolder)]
     // Settings saved per project in Library

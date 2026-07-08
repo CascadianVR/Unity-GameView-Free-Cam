@@ -1,6 +1,6 @@
 {
-    "name": "com.cascas.GameViewFlyCam.Editor",
-    "rootNamespace": "",
+    "name": "com.cascadian.GameViewFreeCam.Editor",
+    "rootNamespace": "Cascadian.GameViewFreeCam",
     "references": [
         "VRC.SDKBase",
         "VRC.SDKBase.Editor"
