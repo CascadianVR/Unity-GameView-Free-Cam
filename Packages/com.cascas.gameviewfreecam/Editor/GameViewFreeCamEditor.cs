@@ -91,7 +91,8 @@ namespace Cascadian.GameCameraFlyCam
             // If not select camera, get the main camera
             if (cam == null)
             {
-                cam = Camera.main;
+                GameObject[] mainCameras = GameObject.FindGameObjectsWithTag("MainCamera");
+                cam = mainCameras[^1].GetComponent<Camera>();
                 if (cam == null) return;
             }
 
