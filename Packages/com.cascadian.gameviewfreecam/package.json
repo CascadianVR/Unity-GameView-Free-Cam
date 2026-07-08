@@ -1,7 +1,7 @@
 {
   "name": "com.cascadian.gameviewfreecam",
   "displayName": "Cascadian - GameViewFreeCam",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "MIT",
   "description": "Lets you navigate the game view window like the scene view in the scene view.",
   "gitDependencies": {},
