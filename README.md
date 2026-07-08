@@ -1,4 +1,4 @@
-# Cascadian - GameView Free-Cam
+# Cascadian - GameViewFreeCam
 
 <table border="0">
   <tr>
