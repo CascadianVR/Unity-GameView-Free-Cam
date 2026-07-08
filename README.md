@@ -16,7 +16,8 @@ https://github.com/user-attachments/assets/ea8d8abe-2035-4d79-8f41-93034fb400e7
 
 - Right click on game view to look around
   - While holding right click down, use WASDQE to move around.
-- Under the top menu Tools->Cascadian->GameViewFreeCamSettings
+  - The currently selected camera in the scene will move. If no camera is selected, the "Main" tagged scene camera will move.
+- Access settings for speed, smoothing and more under Tools->Cascadian->GameViewFreeCamSettings
 
 ## 📋 Planned Features
 
