@@ -10,7 +10,7 @@
 
 https://github.com/user-attachments/assets/ea8d8abe-2035-4d79-8f41-93034fb400e7
 
-## 🗂️ [Download through VCC](https://cascadianvr.github.io/Unity-GameView-Free-Cam/) 
+## 🗂️ [Download through VCC](https://cascadianvr.github.io/Unity-GameViewFreeCam/) 
 
 ## ▶ Current Features
 
