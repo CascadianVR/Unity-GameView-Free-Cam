@@ -1,0 +1,22 @@
+{
+  "name": "com.cascadian.gameviewfreecam",
+  "displayName": "Cascadian - GameViewFreeCam",
+  "version": "0.0.6",
+  "license": "MIT",
+  "description": "Lets you navigate the game view window like the scene view in the Unity Editor.",
+  "gitDependencies": {},
+  "vpmDependencies": {
+    "com.vrchat.base": "^3.10.0"
+  },
+  "author": {
+    "name": "Cascadian",
+    "email": "cascadltd@gmail.com",
+    "url": "https://github.com/CascadianVR"
+  },
+  "legacyFolders": {},
+  "legacyFiles": {},
+  "localPath": "D:\\Unity\\UnitySyncView\\Packages\\com.cascas.syncview",
+  "type": "tool",
+  "unity": "2022.3",
+  "unityRelease": "22f1"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "com.cascas.GameViewFlyCam.Editor",
+    "rootNamespace": "",
+    "references": [
+        "VRC.SDKBase",
+        "VRC.SDKBase.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
